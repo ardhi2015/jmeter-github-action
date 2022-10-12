@@ -129,8 +129,8 @@
         <hashTree/>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
-            <elementProp name="api_key" elementType="Argument">
-              <stringProp name="Argument.name">api_key</stringProp>
+            <elementProp name="API_KEY" elementType="Argument">
+              <stringProp name="Argument.name">API_KEY</stringProp>
               <stringProp name="Argument.value">${API_KEY}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
