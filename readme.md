@@ -8,7 +8,7 @@
 1. Register to get the API token key -  [https://www.weatherbit.io/account/create](https://www.weatherbit.io/account/create)
 2. Clone the repo
    ```sh
-   git clone https://github.com/ardhi2015/jmeter-github-action
+   git clone https://github.com/ardhi2015/jmeter-github-action.git
    ```
 3. go to {your directory}/apache-jmeter-5.5/bin
 4. open jmeter GUI
