@@ -41,7 +41,10 @@
 4. input some item
  - Result file : JMeter run log file
  - user.properties.file (usualy in apache-jmeter-5.5/bin) 
- - output directory:
+ - output directory: empity folder directory
+5. click generate html report
+6. go to your output directory
+7. there's html file report
 
 ### How to Trigger CI (Github Action)
 push something to master
