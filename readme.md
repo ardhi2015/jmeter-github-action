@@ -16,15 +16,6 @@
 - double click jmeter.bat (windows)
 5. change value`s API_KEY on 'User Defined Variables' to your API token
 
-6. Rename `cypress.example.env.json` to `cypress.env.json` and Enter your API, base_url = `https://api.weatherbit.io/v2.0/`  then, url_ui = `https://www.service.nsw.gov.au/`.
-   ```json
-   {
-    "api_key": "your_api_token",
-    "base_url": "sample",
-    "url_ui" : "sample"
-    }
-   ```
-
 ### How to run
 1. open terminal
 2. go to {your directory}/apache-jmeter-5.5/bin
