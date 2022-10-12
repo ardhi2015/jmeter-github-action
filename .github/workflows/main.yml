@@ -25,7 +25,7 @@ jobs:
             ]
           testFilePath: jojonomic.jmx
           outputReportsFolder: reports/
-          args: "--loglevel INFO -DAPI_KEY=${{ secrets.API_KEY }"
+          args: "--loglevel INFO -DAPI_KEY=${{ secrets.API_KEY }}"
 
 
       - uses: actions/upload-artifact@v1
