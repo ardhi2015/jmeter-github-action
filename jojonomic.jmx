@@ -73,7 +73,7 @@
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/v2.0/current?lat=${lat}&amp;lon=${lot}&amp;key=${API_KEY}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp> 
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
@@ -104,7 +104,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api.weatherbit.io/v2.0/current?postal_code=${post_code}&amp;key=${API_KEY}</stringProp>
+          <stringProp name="HTTPSampler.path">https://api.weatherbit.io/v2.0/current?postal_code=${post_code}&amp;key=${__P("API_KEY")}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -128,7 +128,12 @@
         </CSVDataSet>
         <hashTree/>
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
-          <collectionProp name="Arguments.arguments">     
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="API_KEY" elementType="Argument">
+              <stringProp name="Argument.name">API_KEY</stringProp>
+              <stringProp name="Argument.value">${API_KEY}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
           </collectionProp>
         </Arguments>
         <hashTree/>
