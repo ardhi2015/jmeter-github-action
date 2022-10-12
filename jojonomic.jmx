@@ -71,7 +71,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/v2.0/current?lat=${lat}&amp;lon=${lot}&amp;key=f1b504d7785b4c1989f45530e68564aa</stringProp>
+          <stringProp name="HTTPSampler.path">/v2.0/current?lat=${lat}&amp;lon=${lot}&amp;key=${API_KEY}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -104,7 +104,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">https://api.weatherbit.io/v2.0/current?postal_code=${post_code}&amp;key=f1b504d7785b4c1989f45530e68564aa</stringProp>
+          <stringProp name="HTTPSampler.path">https://api.weatherbit.io/v2.0/current?postal_code=${post_code}&amp;key=${API_KEY}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
