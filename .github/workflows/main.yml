@@ -16,6 +16,13 @@ jobs:
       - name: Run JMeter Action on a test
         uses: rbhadti94/apache-jmeter-action@v0.5.0
         with:
+          secrets: |
+            [
+                {
+                "name": "API_KEY",
+                "value": "${{ secrets.API_KEY }}"
+                }
+            ]
           testFilePath: jojonomic.jmx
           outputReportsFolder: reports/
           args: "--loglevel INFO"
