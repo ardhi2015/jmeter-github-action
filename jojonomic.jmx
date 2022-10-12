@@ -87,7 +87,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="latitude_longitude_csv" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">/home/ardhi/work/stress test/apache-jmeter-5.5/bin/latlon.csv</stringProp>
+          <stringProp name="filename">latlon.csv</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -116,7 +116,7 @@
         </HTTPSamplerProxy>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="post_code_csv" enabled="true">
-          <stringProp name="filename">/home/ardhi/work/stress test/apache-jmeter-5.5/bin/post_code.csv</stringProp>
+          <stringProp name="filename">post_code.csv</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">post_code</stringProp>
           <boolProp name="ignoreFirstLine">true</boolProp>
